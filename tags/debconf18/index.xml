@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Debconf18 on </title>
-    <link>https://example.com/tags/debconf18/</link>
+    <link>https://blog.owlfox.org/tags/debconf18/</link>
     <description>Recent content in Debconf18 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 11 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/debconf18/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.owlfox.org/tags/debconf18/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My first debian conf :)</title>
-      <link>https://example.com/posts/debian-conf-2018/</link>
+      <link>https://blog.owlfox.org/posts/debian-conf-2018/</link>
       <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/debian-conf-2018/</guid>
+      <guid>https://blog.owlfox.org/posts/debian-conf-2018/</guid>
       <description>This is my first post with hugo.</description>
     </item>
     

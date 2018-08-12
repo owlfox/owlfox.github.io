@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on </title>
-    <link>https://example.com/categories/</link>
+    <link>https://blog.owlfox.org/categories/</link>
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.owlfox.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Community</title>
-      <link>https://example.com/categories/community/</link>
+      <link>https://blog.owlfox.org/categories/community/</link>
       <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/categories/community/</guid>
+      <guid>https://blog.owlfox.org/categories/community/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Debian</title>
-      <link>https://example.com/categories/debian/</link>
+      <link>https://blog.owlfox.org/categories/debian/</link>
       <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/categories/debian/</guid>
+      <guid>https://blog.owlfox.org/categories/debian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Source</title>
-      <link>https://example.com/categories/open-source/</link>
+      <link>https://blog.owlfox.org/categories/open-source/</link>
       <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/categories/open-source/</guid>
+      <guid>https://blog.owlfox.org/categories/open-source/</guid>
       <description></description>
     </item>
     
