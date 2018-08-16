@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>https://blog.owlfox.org/</link>
-    <description>Recent content on </description>
+    <title>Taiwan on </title>
+    <link>https://blog.owlfox.org/tags/taiwan/</link>
+    <description>Recent content in Taiwan on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 11 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.owlfox.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.owlfox.org/tags/taiwan/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>First post!</title>
-      <link>https://blog.owlfox.org/posts/my-first-post/</link>
-      <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.owlfox.org/posts/my-first-post/</guid>
-      <description>This is my first post with hugo. Thanks to hugo, hyde-hyde and github pages.
-changelog  2018/08/16 Add some hugo command notes  hugo commands hugo new posts/hugo_notes.md  This command will generate a new article based on archetypes/default.md
-hugo server  start a local http server, helpful to preview the results before push.
-hugo  generate a static site contents into public folder based your current configuration.</description>
-    </item>
     
     <item>
       <title>My first debian conf :)</title>
