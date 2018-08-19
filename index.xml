@@ -6,10 +6,23 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.owlfox.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lalala.. Laravel!</title>
+      <link>https://blog.owlfox.org/posts/laravel_notes/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.owlfox.org/posts/laravel_notes/</guid>
+      <description> I am reviewing concepts of laravel before doing a part-time job.
+routes What is it?
+Defines how laravel do with the routes on our webpage. For example: https://myawesomesite.org/test, we can define what laravel should return to this request. Things to be returned can be a html or json for AJAX request.
+Where it is?:
+ Before laravel 5.3: app/Http/routes.php After: routes/web.php  </description>
+    </item>
     
     <item>
       <title>First post!</title>
@@ -30,8 +43,9 @@ hugo  generate a static site contents into public folder based your current conf
       
       <guid>https://blog.owlfox.org/posts/debian-conf-2018/</guid>
       <description>I was so lucky to be able to attend this summer and helping the video team to accomplish some tasks!
-what is debian conf DebConf is the Debian Project&amp;rsquo;s developer conference. Where Debian developers(DDs) came from everywhere.
-I wish I could contribute more and be more involved into the debian community next year in Brazil.</description>
+What is debian conf? DebConf is the Debian Project&amp;rsquo;s developer conference. Where Debian developers(DDs) came from everywhere.
+I wish I could contribute more and be more involved into the debian community next year in Brazil.
+What I have done? Basically I am doing some simple tasks like handing the camera(The camera operator), the guy who plays with the PA system(audio techinician), director(controlls which camera to feed into the live-stream) during the debconf.</description>
     </item>
     
   </channel>
