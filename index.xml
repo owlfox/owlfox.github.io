@@ -6,10 +6,42 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.owlfox.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Day 1 JS Drum</title>
+      <link>https://blog.owlfox.org/posts/js30_1_drum/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.owlfox.org/posts/js30_1_drum/</guid>
+      <description>This is the note of js 30 days challenging, and the first days is about event handler and audio element. I am still far away from fluent to use javascript everywhere&amp;hellip; So I guess this kind of practice helps.
+Below is the code I implemented:
+function playSound(e) { //why use key code? I guess it&#39;s for both upper and lower case. //and cross browser support... const keyCode = event.keyCode //data- used for self-made attribute const audio = document.</description>
+    </item>
+    
+    <item>
+      <title>First week to Melbourne</title>
+      <link>https://blog.owlfox.org/posts/1st_week_to_melbourne/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.owlfox.org/posts/1st_week_to_melbourne/</guid>
+      <description>Airport to CBD(central business district) I took scoot airline from Taiwan to Melbourne, with a transfer in Singapore. The transporation from airport to CBD is fairly convenient. By taking skybus（double decked bus) outside of the airport, with costs ~20A$, I um.. arrived safely.
+Hostel I stayed in Europa Melbourne, which provides free breakfast and not so fast wifi. The location of it is actually very good(inside of CBD).
+Foods I have been eating DONDON for a while and besides that, I have done gensuke hakata ramen, some chicken kebab, pork souvlaki and some eatable foods by myself lol.</description>
+    </item>
+    
+    <item>
+      <title>Knapsack</title>
+      <link>https://blog.owlfox.org/posts/knapsack/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.owlfox.org/posts/knapsack/</guid>
+      <description>This is one notes of Coursera course discrete optimization given by University of Melbourne.
+I&amp;rsquo;m working on it, hopefully I can write some notes to help myself to remember it.</description>
+    </item>
     
     <item>
       <title>Lalala.. Laravel!</title>

@@ -16,18 +16,18 @@
     
     
 
-<title>Lalala.. Laravel! • </title>
+<title>Day 1 JS Drum • </title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Lalala.. Laravel!"/>
-<meta name="twitter:description" content="Some notes about laravel"/>
+<meta name="twitter:title" content="Day 1 JS Drum"/>
+<meta name="twitter:description" content="Javascript 30 Day Challenge"/>
 
-<meta property="og:title" content="Lalala.. Laravel!" />
-<meta property="og:description" content="Some notes about laravel" />
+<meta property="og:title" content="Day 1 JS Drum" />
+<meta property="og:description" content="Javascript 30 Day Challenge" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.owlfox.org/posts/laravel_notes/" /><meta property="article:published_time" content="2018-08-18T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-08-18T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:url" content="https://blog.owlfox.org/posts/js30_1_drum/" /><meta property="article:published_time" content="2018-09-02T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-09-02T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
     
 
@@ -129,13 +129,13 @@
             
     <article>
   <header>
-    <h1>Lalala.. Laravel!</h1>
+    <h1>Day 1 JS Drum</h1>
      
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> Aug 18, 2018
+      <i class="fas fa-calendar-alt"></i> Sep 2, 2018
     
     
     
@@ -146,10 +146,7 @@
           <br/>
            <i class="fas fa-tags"></i>
           
-          <a class="badge badge-tag" href="/tags/php">php</a>
-           
-      
-          <a class="badge badge-tag" href="/tags/laravel">laravel</a>
+          <a class="badge badge-tag" href="/tags/js">js</a>
           
       
     
@@ -163,36 +160,56 @@
   <div class="post">
     
 
-<p>I am reviewing concepts of laravel before doing a part-time job.</p>
+<p>This is the note of js 30 days challenging, and the first days is about event handler and audio element. I am still far away from fluent to use javascript everywhere&hellip; So I guess this kind of practice helps.</p>
 
-<h2 id="routes">routes</h2>
+<p>Below is the code I implemented:</p>
 
-<p>What is it?</p>
+<pre><code>function playSound(e) {
+    //why use key code? I guess it's for both upper and lower case.
+    //and cross browser support...
+    const keyCode = event.keyCode 
 
-<p>Defines how laravel do with the routes on our webpage. For example: <code>https://myawesomesite.org/test</code>, we can define what laravel should return to this request. Things to be returned can be a <code>html</code> or <code>json</code> for AJAX request.</p>
+    //data- used for self-made attribute
+    const audio = document.querySelector(`audio[data-key=&quot;${keyCode}&quot;]`)
+    const key = document.querySelector(`div[data-key=&quot;${keyCode}&quot;]`)
+    if(!audio) return
+    key.classList.add('playing')
+    audio.currentTime = 0
+    audio.play()
+  }
+  function removePlayingClass(e) {
+      if(e.propertyName !== 'transform') return
+      this.classList.remove('playing')
+      console.log(e)
+  }
 
-<p>Where it is?:</p>
+  
+  
+  document.addEventListener('keydown', playSound)
+  keys = document.querySelectorAll('.key')
+  keys.forEach(key =&gt; key.addEventListener('transitionend', removePlayingClass))
+</code></pre>
 
-<ul>
-<li>Before laravel 5.3: <code>app/Http/routes.php</code></li>
-<li>After: <code>routes/web.php</code></li>
-</ul>
+<h3 id="some-reources-that-could-be-helping">Some reources that could be helping</h3>
+
+<ol>
+<li><a href="http://keycode.info/">http://keycode.info/</a> To know which code your keystroke actually mapped into.</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Events/keydown">https://developer.mozilla.org/en-US/docs/Web/Events/keydown</a> How to use the event in browser.</li>
+<li>BBC Sound effects you may want to use? <a href="http://bbcsfx.acropolis.org.uk/?q=dog">http://bbcsfx.acropolis.org.uk/?q=dog</a></li>
+<li>html media cuurrent time property: <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime">https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime</a></li>
+<li>CSS transitions: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions</a></li>
+</ol>
 
   </div>
   
 
 <div class="post--navigation post--navigation-single">
     
-    <a href="/posts/my-first-post/" class="post--navigation-prev">
+    <a href="/posts/1st_week_to_melbourne/" class="post--navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">First post!</span>
+      <span class="navigation-tittle">First week to Melbourne</span>
     </a>
     
-    
-    <a href="/posts/knapsack/" class="post--navigation-next">
-      <span class="navigation-tittle">Knapsack</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
-    </a>
     
 </div>
 
