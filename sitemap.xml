@@ -67,13 +67,13 @@
   </url>
   
   <url>
-    <loc>https://blog.owlfox.org/tags/debian/</loc>
+    <loc>https://blog.owlfox.org/categories/debian/</loc>
     <lastmod>2018-08-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.owlfox.org/categories/debian/</loc>
+    <loc>https://blog.owlfox.org/tags/debian/</loc>
     <lastmod>2018-08-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
