@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/404.js"],"names":[],"mappings":"0FAAA,oCAIe,4BACb,kBAAC,IAAD","file":"component---src-pages-404-js-6219cb3555b398a4001e.js","sourcesContent":["import React from 'react'\n\nimport Layout from '../components/layout'\n\nexport default () => (\n  <Layout>\n    No such page existed, sorry.\n  </Layout>\n)\n"],"sourceRoot":""}
